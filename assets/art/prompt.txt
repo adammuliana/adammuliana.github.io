@@ -1,0 +1,11 @@
+Use case: stylized-concept
+Asset type: portrait mobile wedding website stage background, 2:3 aspect ratio
+Primary request: premium editorial cinematic 3D wedding stage titled conceptually Crimson Atelier, no visible text.
+Scene/backdrop: deep oxblood and burgundy near-black seamless studio backdrop, reflective dark burgundy plinth floor.
+Subject: sculptural flowing burgundy silk ribbons draping from the upper outer edges into the lower outer corners, with a few exquisitely fine gold curved architectural orbit details around the exterior.
+Style/medium: high-end physically rendered 3D scene, cinematic luxury materials, exceptional realistic satin silk folds and subtle gold reflections, elegant and airy, restrained.
+Composition/framing: centered portrait front view. A tall arched/oval empty negative space with entirely dark empty interior occupies x19% to81% and y18% to64%, reserved for compositing a real couple photograph later. Ribbons and golden architectural accents remain outside that central oval. Upper15% and bottom25% are uncluttered dark space for real HTML typography. Ribbons subtly frame without dominating, generous dark breathing room.
+Lighting/mood: soft warm champagne studio light, gentle volumetric rim glow, elegant intimate atmosphere.
+Color palette: deep oxblood, rich burgundy, nearly black wine shadows, restrained champagne gold.
+Materials/textures: flowing silk satin, finely brushed gold, polished reflective burgundy floor.
+Constraints: Empty stage only, absolutely no people or silhouettes. No text, lettering, monograms, symbols, UI, watermark, candles, or flowers. Do not fill the central empty oval. No white patches or bright central arch fill.

@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Adam Muliana//Undangan Pernikahan//ID
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Pernikahan Adam & Muliana
+X-WR-TIMEZONE:Asia/Makassar
+BEGIN:VEVENT
+UID:adam-muliana-20261018-akad@invitation.local
+DTSTAMP:20261008T034346Z
+DTSTART:20261018T020000Z
+DTEND:20261018T043000Z
+SUMMARY:Akad Nikah Adam & Muliana
+LOCATION:Kediaman Mempelai Wanita\, Desa Lalonggolosua\, Dusun III Talodo (
+ dekat Masjid Al-Ghazali)
+DESCRIPTION:Akad Nikah Adam & Muliana. Minggu\, 18 Oktober 2026\, pukul 10.
+ 00-12.30 WITA.\nKediaman Mempelai Wanita\, Desa Lalonggolosua\, Dusun III 
+ Talodo (dekat Masjid Al-Ghazali).
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

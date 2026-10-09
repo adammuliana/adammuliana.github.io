@@ -1,0 +1,77 @@
+/* Family, ceremony, wedding gifts, and local soundtrack. */
+.family-profiles{display:grid;gap:22px;margin-top:46px;text-align:left}
+.family-profile{position:relative;border-top:1px solid #d6b27d50;padding:24px 12px 4px 0}
+.family-profile__label{font-size:11px;font-weight:600;letter-spacing:.18em;color:#cba77e}
+.family-profile h3{font-size:58px;letter-spacing:-.045em;margin:12px 0 17px;color:#fff1db}
+.family-profile__order{font-size:14px;color:#d3b29d;line-height:1.8}
+.family-profile__parents{font-family:var(--serif);font-size:25px;line-height:1.35;color:#f0dbc1;margin-top:7px}
+.family-profile__parents span{display:block}
+.family-profile__parents em{font-size:18px;font-weight:400;color:#c99f70;font-style:italic;margin:4px 0;display:block}
+.family-profile__number{position:absolute;right:3px;top:28px;font-family:var(--serif);font-size:52px;color:#c1996329;line-height:1}
+.events.akad-section{position:relative;isolation:isolate;overflow:hidden;padding:62px 30px 48px;background:#270813;color:var(--cream)}
+.akad-section::before{content:'';position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at 50% 36%,#9638534d,transparent 60%),linear-gradient(180deg,#350b19,#22070f)}
+.events.akad-section .section-heading h2{color:#f8e7cd;font-size:clamp(43px,12vw,58px)}
+.akad-section .section-number{color:#c9a474}
+.akad-scene{height:310px;position:relative;display:grid;place-items:center;margin:30px -7px -17px;perspective:700px;z-index:2}
+.akad-scene__arch{position:absolute;width:225px;height:270px;bottom:13px;border:1px solid #d5b27c88;border-radius:150px 150px 8px 8px;background:radial-gradient(ellipse at 50% 45%,#b2586755,#4c122438 70%);box-shadow:0 0 0 7px #d3ad6f09,0 0 0 8px #cfa76b36,inset 0 0 35px #bd803b15}
+.akad-scene__orbit{position:absolute;bottom:-17px;width:290px;height:90px;border:1px solid #d5af6e5c;border-radius:50%;transform:rotateX(60deg);animation:ceremony-orbit 7s ease-in-out infinite}
+.akad-scene__orbit--two{width:235px;height:65px;bottom:-6px;border-color:#e6bd7f78;animation-delay:-3s}
+.akad-characters{position:relative;z-index:2;width:310px;height:310px;max-width:100%;object-fit:contain;object-position:center bottom;filter:drop-shadow(0 15px 12px #14030a88);transform-origin:50% 80%;animation:ceremony-photo-drift 7s ease-in-out infinite;animation-play-state:paused}
+.akad-scene.is-visible .akad-characters{animation-play-state:running;animation-delay:.55s}
+.akad-scene__spark{position:absolute;top:39%;left:9%;font-size:23px;color:#eac893;animation:ceremony-spark 4s ease-in-out infinite}
+.akad-scene__spark--right{top:22%;right:8%;left:auto;font-size:17px;animation-delay:-2s}
+.akad-ticket{position:relative;padding:38px 22px 29px;border:1px solid #d8b7847a;background:linear-gradient(145deg,#f7edda,#e7d5b8);box-shadow:0 18px 45px #12030970;color:var(--wine);text-align:center;border-radius:100px 100px 7px 7px}
+.akad-ticket::before{content:'';position:absolute;inset:9px;border:1px solid #b68d5660;border-radius:93px 93px 3px 3px;pointer-events:none}
+.akad-ticket__eyebrow{font-size:10px;letter-spacing:.19em;color:#9b754e}
+.akad-ticket h3{font-size:48px;letter-spacing:-.045em;margin-top:13px}
+.akad-ticket__date{display:flex;justify-content:center;align-items:center;gap:18px;margin:23px auto 20px;max-width:240px;padding:21px 0;border-top:1px solid #a8805155;border-bottom:1px solid #a8805155}
+.akad-ticket__day{font-family:var(--serif);font-size:78px;line-height:.85;font-weight:400;letter-spacing:-.06em;color:#7a2d40}
+.akad-ticket__month{text-align:left;line-height:1.45}
+.akad-ticket__month span{display:block;font-size:10px;letter-spacing:.16em;color:#956b50}
+.akad-ticket__month b{display:block;font-family:var(--serif);font-size:31px;font-weight:400;line-height:1.15}
+.akad-ticket__time{font-size:19px;line-height:1.5;font-weight:600;letter-spacing:.035em;color:#672039}
+.akad-ticket__time span{margin:0 10px;font-size:12px;font-weight:400;color:#ae8860}
+.akad-ticket__time small{font-size:11px;letter-spacing:.08em;margin-left:7px;font-weight:400}
+.akad-ticket__message{font-family:var(--serif);font-size:21px;line-height:1.35;color:#986a63;margin-top:13px}
+.akad-section .event-location-note{justify-content:center;border-top:0;color:#d4b286;padding-top:27px}
+.akad-section .event-location-note>span{font-size:12px}
+.akad-section .event-location-note b{color:#f0d6b5;font-size:13px}
+.akad-location-link{display:flex;align-items:center;justify-content:center;gap:10px;min-height:44px;color:#dbb985;font-size:12px;margin:17px auto 0}
+.akad-location-link .icon{width:16px;height:16px}
+.gift-section{position:relative;isolation:isolate;background:#eee3d2;color:var(--wine);padding-top:66px;padding-bottom:62px}
+.gift-section .section-heading h2{color:var(--wine)}
+.gift-section__intro{font-size:14px;line-height:1.95;color:#88656a;margin-top:24px}
+.gift-card{position:relative;overflow:hidden;padding:25px 23px 22px;border:1px solid #d6b37a99;border-radius:7px;background:linear-gradient(120deg,#451226,#2d0917);box-shadow:0 16px 30px #4a27341a;color:#f5e5cf;margin-top:26px;transform:rotateX(var(--tilt-x,0deg)) rotateY(var(--tilt-y,0deg));transition:transform .4s}
+.gift-card::before{content:'';position:absolute;width:240px;height:240px;border:1px solid #f0d19820;border-radius:50%;right:-135px;top:-105px;box-shadow:0 0 0 25px #f0d19809,0 0 0 26px #f0d19816;pointer-events:none}
+.gift-card__top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-bottom:23px;margin-bottom:19px;border-bottom:1px solid #dcc09530;position:relative}
+.gift-card__bank{font-family:var(--sans);font-size:18px;font-weight:600;letter-spacing:.015em;line-height:1.2}
+.gift-card__top .icon{width:25px;height:25px;color:#d9b77f;stroke-width:1}
+.gift-card__label{font-size:9px;letter-spacing:.14em;color:#ccaa86}
+.account-number{position:relative;font-family:var(--sans);font-size:clamp(19px,5.9vw,27px);font-weight:500;letter-spacing:.055em;line-height:1.5;font-variant-numeric:tabular-nums;margin-top:6px;white-space:nowrap;user-select:all}
+.gift-card__owner-label{display:block;font-size:9px;letter-spacing:.14em;color:#ccaa86;margin-top:18px}
+.gift-card h3{font-family:var(--sans);font-size:12px;line-height:1.7;font-weight:600;letter-spacing:.065em;margin-top:4px}
+.gift-copy{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;min-height:46px;margin-top:23px;border:1px solid #dfbc814d;border-radius:3px;background:#eed2a115;color:#f1d19e;font-size:12px;font-weight:500;transition:background .2s}
+.gift-copy:hover{background:#eed2a128}
+.gift-copy .icon{width:16px;height:16px}
+.gift-card--bri{background:linear-gradient(120deg,#f9efde,#e5d1b1);color:#64233a;border-color:#b28b5766}
+.gift-card--bri .gift-card__top{border-color:#9b754338}
+.gift-card--bri .gift-card__top .icon,.gift-card--bri .gift-card__label,.gift-card--bri .gift-card__owner-label{color:#986f42}
+.gift-card--bri::before{border-color:#9a713b30;box-shadow:0 0 0 25px #96733e08,0 0 0 26px #96733e20}
+.gift-card--bri .gift-copy{color:#6d2a3d;background:#74304609;border-color:#8b5b3f40}
+.gift-card--bri .gift-copy:hover{background:#74304615}
+.gift-section__thanks{font-family:var(--serif);font-size:23px;font-style:italic;text-align:center;line-height:1.4;color:#996d61;margin-top:32px}
+.audio-controls{position:fixed;right:18px;bottom:calc(93px + env(safe-area-inset-bottom,0px));z-index:45;display:flex;align-items:center;padding:5px;gap:2px;border:1px solid #d0a66d77;border-radius:35px;background:#2c0b17ed;box-shadow:0 6px 25px #18060c40;backdrop-filter:blur(10px);color:#e7c698}
+.audio-control{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-width:45px;min-height:45px;padding:6px 8px;border-radius:50%;background:none;color:inherit}
+.audio-control .icon{width:16px;height:16px;stroke-width:1.5}
+.audio-control span{font-size:9px;line-height:1.2;letter-spacing:.02em}
+.audio-control:hover{background:#eac58d18}
+.audio-controls[data-state="playing"] #audio-toggle{background:#eac58d20;color:#ffe2ad}
+.celebration-toast{position:fixed;left:50%;bottom:170px;transform:translate(-50%,12px);opacity:0;pointer-events:none;z-index:100;max-width:calc(100% - 36px);width:max-content;padding:12px 18px;border-radius:5px;background:#f6ead5;color:#58203a;font-size:12px;line-height:1.65;text-align:center;box-shadow:0 8px 35px #18060c40;transition:opacity .25s,transform .25s}
+.celebration-toast.is-visible{opacity:1;transform:translate(-50%,0)}
+.floating-nav a{min-width:0;flex:1}
+@keyframes ceremony-photo-drift{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(0,-3px,0)}}
+@keyframes ceremony-orbit{0%,100%{transform:rotateX(60deg) scale(1);opacity:.6}50%{transform:rotateX(65deg) scale(1.04);opacity:1}}
+@keyframes ceremony-spark{0%,100%{opacity:.35;transform:scale(.8)}50%{opacity:1;transform:scale(1.1)}}
+@media(min-width:1000px){.celebration-toast{left:calc(100% - 260px)}.audio-controls{right:23px}}
+@media(max-width:359px){.events.akad-section{padding-inline:25px}.akad-scene{height:280px}.akad-characters{height:285px;width:285px}.akad-scene__arch{width:205px;height:245px}.akad-ticket{padding-inline:17px}.akad-ticket h3{font-size:43px}.akad-ticket__time{font-size:17px}.gift-card{padding-inline:18px}.account-number{font-size:19px}.gift-card__bank{font-size:17px}.family-profile h3{font-size:52px}.audio-controls{right:14px}}
+@media(prefers-reduced-motion:reduce){.akad-scene *{animation:none!important}.gift-card{transform:none;transition:none}.celebration-toast{transition:none}}

@@ -1,0 +1,12 @@
+Use case: background-extraction with identity preservation.
+Asset type: transparent photo cutout for the Akad Nikah scene of Adam and Muliana's wedding invitation; CSS will animate the cutout.
+Input image 1 is the EDIT TARGET and sole reference, a real seated wedding portrait.
+Primary request: Remove only the background and isolate the exact two real people together as one clean photographic cutout. Keep their faces, expressions, hair, skin tone, body proportions, seated pose, hands, clothing, accessories and fabric patterns identical to the source. This is background removal, not a new portrait and not a cartoon or stylization.
+Man on left: exact black satin buttoned jacket with gold chain/brooch/buttons, cream-and-gold cylindrical cap, maroon/gold woven sarong, hands on knees. Woman on right: exact wine-red hijab, very ornate gold bridal crown and dangling gold ornaments, red dress, gold shoulder/arm/cuff details, gold jewelry, maroon-and-gold woven sarong, and visible red fabric train. Her hand is linked to his arm. Preserve all these source details precisely.
+Remove: red wall drapes, white wall, writing, hanging umbrella and its black pole (including the pole between their upper bodies), carpet, side table, vases, dried plants, all scene props.
+Composition: complete visible seated couple from top of his cap and her crown to bottom of their seated sarongs and visible dress train; both people centered together, large in a near-square canvas with only modest transparent padding. Do not invent legs or feet and do not change the seated pose.
+Lighting and photo texture must remain those of the source photograph. No artistic redraw, 3D rendering, facial retouch, new accessories, replacement clothing, shadows on a floor, text, logos or watermark.
+Output must have a genuine transparent alpha background with carefully preserved edges on the crown, gold dangling ornaments, hijab, arms and clothing. Keep the original person pixels as faithfully as possible.
+
+Tool: built-in ImageGen, edit with transparent background.
+Reference: WhatsApp Image 2026-10-07 at 18.53.59 (1).jpeg
